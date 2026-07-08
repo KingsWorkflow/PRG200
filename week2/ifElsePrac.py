@@ -1,8 +1,3 @@
-# if 20>10:
-#     print("20 is greater than 10")
-# else:
-#     print("20 is not greater than
-# grade slab
 marks=[]
 stuName=[]
 for i in range(20):

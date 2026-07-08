@@ -1,14 +1,11 @@
 storeName=[]
 meterUnit=[]
-
 numberOfStore=int(input("Enter number of stores:"))
-
 for i in range(numberOfStore+1):
     stName=input("Enter name of store:")
     storeName.append(stName)
     unit=float(input("Enter unit consumed: "))
     meterUnit.append(unit)
-
 for i,val in enumerate(storeName):
         ut=meterUnit[i]
         if ut<=50:
