@@ -2,7 +2,7 @@ import pandas as pd
 
 df=pd.DataFrame({
     "Name":[
-        "Anuprash Pohrel",
+        "Anuprash Pokhrel",
         "Allen, Mr.willam Henry",
         "Sarjyant Maharjan"
     ],
