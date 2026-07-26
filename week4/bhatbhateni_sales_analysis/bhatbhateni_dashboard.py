@@ -35,7 +35,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     """Load cleaned sales data from CSV file"""
-    file_path = r"C:\Users\Dell\Documents\Prg200\PRG200\week4\bhatbhateni_sales_analysis\bhatbhateni_sales_cleaned.csv"
+    file_path = r"./bhatbhateni_sales_cleaned.csv"
     df = pd.read_csv(file_path)
     
     # Convert Date back to datetime
