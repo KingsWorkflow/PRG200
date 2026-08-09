@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df= pd.read_csv(r"C:\Users\Dell\Documents\Prg200\PRG200\week5\bankAnalysis\nepal_bank_transactions.csv")
+df= pd.read_csv("nepal_bank_transactions.csv")
 
 #  Display the first five and last five rows of the DataFrame
 first_five_rows = df.head()
